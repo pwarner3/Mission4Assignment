@@ -1,0 +1,9 @@
+﻿li {
+    list-style-type: none;
+}
+body {
+    background-color: #D5DBDB;
+}
+#gradeHide {
+    display: none;
+}
