@@ -8,6 +8,7 @@ namespace Mission4Assignment.Models
 {
     public class CalculatorModel
     {
+        //Use Required and Range() attribute to validate
         [Required]
         [Range(0,100)]
         public int assignments { get; set; }
