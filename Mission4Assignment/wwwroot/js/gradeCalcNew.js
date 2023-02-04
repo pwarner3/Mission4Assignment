@@ -61,10 +61,6 @@
     }
 });
 
-$("#formCalc").submit(function (e) {
-    e.preventDefault();
-});
-
 function gradeShow(grade) {
-    $("#gradeHide").text("Grade: " + grade).show();
+    alert(grade);
 }
