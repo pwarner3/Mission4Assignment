@@ -12,5 +12,9 @@ namespace Mission4Assignment.Controllers
         {
             return View();
         }
+        public IActionResult Calculator()
+        {
+            return View();
+        }
     }
 }
