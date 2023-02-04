@@ -3,6 +3,7 @@
 *@
 @{
     ViewData["Title"] = "Mission 5";
+    ViewData["Header"] = "Grade Calculator";
     @model CalculatorModel;
 }
 
@@ -12,7 +13,7 @@
 
     <div class="col text-end pt-5">
 
-        <h2>Grade Calculator</h2>
+        <h2>@ViewData["Header"]</h2>
 
         <form id="formCalc" method="post">
             <div class="mb-3">
